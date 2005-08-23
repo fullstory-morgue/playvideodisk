@@ -1,0 +1,17 @@
+Source: playvideodisk-kanotix
+Section: graphics
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends-Indep: cdbs (>= 0.4.23-1.1), build-essential, debhelper (>= 4.1.0)
+Standards-Version: 3.6.2
+
+Package: playvideodisk-kanotix
+Architecture: all
+Depends: libxine1, xine-ui, hwsetup-kanotix
+Provides: playvideodisk-knoppix
+Replaces: playvideodisk-knoppix
+Description: Frontend for xine to change DVD-device on-the-fly
+ This is really a missing-feature workaround for xine, since xine
+ currently does not allow you to specify your DVD-Device by commandline
+ option. The package may become obsolete soon, but is needed for the Kanotix
+ xsession autoconfig.

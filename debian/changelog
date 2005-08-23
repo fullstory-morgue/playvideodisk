@@ -1,0 +1,24 @@
+playvideodisk-kanotix (0.5.3) unstable; urgency=low
+
+  * packaging overhaul.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Aug 2005 17:55:04 +0200
+
+playvideodisk-kanotix (0.5-2) unstable; urgency=low
+
+  * Forked for Kanotix compatibilty.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Dec 2004 21:02:02 +0100
+
+playvideodisk-knoppix (0.5-2) unstable; urgency=low
+
+  * Added spanish messages by Sergio Gonzalez <sergio.gonzalez@hispalinux.es>, Luis Llorente <luis.llorente@hispalinux.es>
+
+ -- Klaus Knopper <knaopper@knopper.net>  Fri,  6 Dec 2002 19:28:51 +0100
+
+playvideodisk-knoppix (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Klaus Knopper <knaopper@knopper.net>  Sun, 28 Jul 2002 22:36:39 +0200
+

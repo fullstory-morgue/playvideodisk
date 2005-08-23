@@ -1,0 +1,47 @@
+#!/bin/sh
+
+XINERC="$HOME/.xine/config"
+
+[ -f /etc/sysconfig/knoppix ] && . /etc/sysconfig/knoppix
+
+usage(){
+case "$LANGUAGE" in
+	es)
+		echo "Uso: $0 programareproducción dispositivo [opciones]" >&2
+		;;
+	*)
+		echo "Usage: $0 playerprog device [options]" >&2
+		;;
+esac
+exit 1
+}
+
+[ "$1" = "--help" -o "$1" = "-h" -o -z "$1" ] && usage
+
+PLAYER="$1"; shift
+DEVICE="$1"; shift
+
+if [ ! -e "$DEVICE" ]; then
+case "$LANGUAGE" in
+	es)
+		echo "*** ERROR: El dispositivo $DEVICE no existe." >&2
+		;;
+	*)
+		echo "*** ERROR: Device $DEVICE does not exist." >&2
+		;;
+esac
+usage
+fi
+
+case "$PLAYER" in
+*xine*)
+if [ ! -e "$XINERC" ]; then
+echo "input.dvd_device:$DEVICE" >"$XINERC"
+else
+sed 's,^input.dvd_device:.*$,input.dvd_device:'"$DEVICE"',g;s,^input.vcd_device:.*$,input.vcd_device:'"$DEVICE"',g;s,^input.cda_device:.*$,input.cda_device:'"$DEVICE"',g;' "$XINERC" >"$XINERC".new
+mv -f "$XINERC".new "$XINERC"
+fi
+;;
+esac
+
+exec $PLAYER "$@"
