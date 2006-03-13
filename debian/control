@@ -7,7 +7,7 @@ Standards-Version: 3.6.2
 
 Package: playvideodisk-kanotix
 Architecture: all
-Depends: libxine1, xine-ui, hwsetup-kanotix
+Depends: libxine1, xine-ui, initscripts-kanotix-live
 Description: Frontend for xine to change DVD-device on-the-fly
  This is really a missing-feature workaround for xine, since xine
  currently does not allow you to specify your DVD-Device by commandline
