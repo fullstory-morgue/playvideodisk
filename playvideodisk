@@ -7,7 +7,7 @@ XINERC="$HOME/.xine/config"
 usage(){
 case "$LANGUAGE" in
 	es)
-		echo "Uso: $0 programareproducción dispositivo [opciones]" >&2
+		echo "Uso: $0 programareproducciÃ³n dispositivo [opciones]" >&2
 		;;
 	*)
 		echo "Usage: $0 playerprog device [options]" >&2
