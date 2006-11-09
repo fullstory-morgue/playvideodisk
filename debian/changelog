@@ -1,8 +1,11 @@
-playvideodisk-kanotix (0.5.7) UNRELEASED; urgency=low
+playvideodisk-kanotix (0.5.7) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix i18n handling.
+  * remove stupid dependency on /etc/sysconfig/.
+  * re- indent.
+  * fix parameter handling.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  2 Nov 2006 13:57:47 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  9 Nov 2006 23:07:26 +0100
 
 playvideodisk-kanotix (0.5.6) unstable; urgency=low
 
