@@ -1,8 +1,10 @@
-playvideodisk-kanotix (0.5.8) UNRELEASED; urgency=low
+playvideodisk (0.5.8) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  9 Nov 2006 23:09:10 +0100
+  * Initial version for sidux
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 20:01:13 +0100
 
 playvideodisk-kanotix (0.5.7) unstable; urgency=low
 
