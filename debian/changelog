@@ -1,10 +1,13 @@
-playvideodisk (0.5.8) UNRELEASED; urgency=low
+playvideodisk (0.5.8) ORPHANED; urgency=low
 
+  [ Joaquim Boura ]
   * NOT RELEASED YET
-
   * Initial version for sidux
 
- -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 20:01:13 +0100
+  [ Stefan Lippers-Hollmann ]
+  * ORPHAN package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  5 Dec 2006 13:34:57 +0100
 
 playvideodisk-kanotix (0.5.7) unstable; urgency=low
 
